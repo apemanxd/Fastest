@@ -2380,10 +2380,21 @@ footer.footer {
     width: 100%;
     height: 518px;
 }
+
+.address-list a{
+color: var(--liListText);
+}
+
+.address-list a:hover{
+    color: #f77ade;
+    }
+
 .address-list li:hover span i,
 .widget-body .extra-link .link-right ul li a:hover, .widget-body .extra-link .link-left ul li a:hover {
     color: #f77ade;
 }
+
+
 .footer-widget .footer-logo {
     margin-bottom: 38px;
 }
